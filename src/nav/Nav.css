@@ -1,0 +1,41 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    flex-direction: row;
+    max-width: max-content;
+    padding: 0.3rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    border-radius: 3rem;
+    display: flex;
+    gap: 1rem;
+    left: 50%;
+    top: 2rem;
+    transform: translatex(-50%);
+    backdrop-filter: blur(5px);
+}
+
+nav a{
+    padding: 1rem;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+/* .nav-socails{
+    position: fixed;
+    left: 2rem;
+    top: 63%;
+    transform: translateY(-50%);
+} */
